@@ -1,10 +1,7 @@
 package com.contestpulse.exception;
 
 /**
- * Thrown when a requested user id doesn't exist. Caught in the controller
- * layer and turned into an HTTP 404 -- same pattern as ContestFetchException
- * from Phase 1 (unchecked, caught explicitly at the controller, no global
- * exception-handling framework).
+ * Thrown when a requested user does not exist.
  */
 public class UserNotFoundException extends RuntimeException {
 

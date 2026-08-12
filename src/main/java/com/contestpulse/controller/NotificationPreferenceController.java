@@ -2,9 +2,9 @@ package com.contestpulse.controller;
 
 import com.contestpulse.dto.NotificationPreferenceRequest;
 import com.contestpulse.dto.NotificationPreferenceResponse;
-import com.contestpulse.service.NotificationPreferenceNotFoundException;
 import com.contestpulse.service.NotificationPreferenceService;
-import com.contestpulse.service.UserNotFoundException;
+import com.contestpulse.exception.NotificationPreferenceNotFoundException;
+import com.contestpulse.exception.UserNotFoundException;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
